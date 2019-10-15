@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Booking Form</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <div class="grid-container">
+
+    <span class="formBody">
+
+        <div class="mainHeader">
+         <h1> Hotel Reservations </h1>
+        </div>
+
+        <form class="form">
+        <div class="formItem">
+          First Name:
+          <input id="firstNameInput" class="formInput" type="text" placeholder="Please enter your name">
+        </div>
+
+        <div class="formItem">
+          Surname:
+          <input id="surnameInput" class="formInput" type="text" placeholder="Please enter your surname">
+        </div>
+
+        <div class="formItem">
+          Select your Hotel by clicking the dropdown menu below.
+        </div>
+
+        <select class="formInput" id="dropdown">
+          <option id="drop1">The Commodore Hotel</option>
+          <option id="drop2">The Table Bay Hotel</option>
+          <option id="drop3">Cape Grace</option>
+        </select>
+
+        <div class="formItem">
+          Number of Days:
+          <input id = "numDays" type="text" value = "3" class="formInput">
+        </div>
+
+        <div class="formItem">
+          Insurance:
+          <input id = "checkbox" type="checkbox" class="formInput" >
+        </div>
+
+        <input class="formButton" type="button" onclick="displayConfirmation()" value="Submit">
+        </form>
+    </span>
+
+    <span class="outputContainer" onchange="getValue();">
+
+        <div id = "hotelInfo"></div>
+        <div id = "output"></div>
+
+    </span>
+  </div>
+
+<script type='text/javascript' src='functions.js'></script>
+</body>
+</html>

@@ -1,0 +1,95 @@
+body {
+  font-family: 'century gothic';
+  background-image: url('Desktop-Travel-Images.jpg');
+  background-size: 100%;
+}
+
+.mainHeader {
+	font-size: 16px;
+	text-align: center;
+  margin: 2px;
+  color: rgb(54, 54, 54);
+}
+/******************* FORM STYLING *******************/
+.formItem{
+	padding: 10px;
+}
+
+.formInput {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid rgb(29, 142, 187);
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: rgba(255, 255, 255, 0.2);
+  opacity: 0.9;
+}
+.dropdown {
+  margin: 10px;
+}
+
+.formBody {
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 400px;
+  border-radius: 10px;
+  padding: 25px;
+  margin: 25px;
+  font-weight: bold;
+  color: rgb(54, 54, 54);
+}
+
+input{
+	margin: 10px;
+}
+/******************* OUTPUT BOX STYLING *******************/
+#hotelInfo {
+  font-weight: bold;
+  color: rgb(54, 54, 54);
+  text-align: center;
+}
+
+#output {
+  font-weight: bold;
+  color: rgb(0, 71, 32);
+}
+
+.outputContainer {
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 400px;
+  height: 200px;
+  overflow: auto;
+  border-radius: 10px;
+  padding: 25px;
+  margin: 25px;
+
+}
+
+/******************* GRID STYLING *******************/
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-areas: 'myArea myArea';
+  justify-content: left;
+  min-width: 50%;
+}
+
+/******************* BUTTON STYLING *******************/
+
+.formButton {
+  width: 100%;
+  background-color: rgb(29, 142, 187);
+  color: white;
+  padding: 12px 20px;
+  overflow: hidden;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+	background-color: #2E6577
+}

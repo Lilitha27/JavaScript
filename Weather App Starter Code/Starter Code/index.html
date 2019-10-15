@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>WeatherApp</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="topHead">
+      <h1>WeatherApp</h1>
+    </div>
+		<center>
+      <div class="grid-container">
+          <div class="item1">
+            <h2 class="weeklyF">Weekly Forecast</h2>
+          <!-- Button for converting Celsius to Fahrenheit -->
+            <button id="button" class="button button2" onclick="convertDisplayUnits()"> Convert &#8451; to &#8457;</button>
+          </div>
+          <div class="location"><h5>Location</h5></div>
+          <!-- Monday -->
+          <div class="days"><p class="dayText">Mon</p> <img class="weatherIcon" src="icons/wi-storm-showers.svg"/></div>
+          <!-- Tuesday -->
+          <div class="days"><p class="dayText">Tues</p> <img class="weatherIcon" src="icons/wi-rain.svg"/></div>
+          <!-- Wednesday -->
+          <div class="days"><p class="dayText">Wedn</p> <img class="weatherIcon" src="icons/wi-day-sunny.svg"/></div>
+          <!-- Thursday -->
+          <div class="days"><p class="dayText">Thurs</p> <img class="weatherIcon" src="icons/wi-day-snow.svg"/></div>
+          <!-- Friday -->
+          <div class="days"><p class="dayText">Fri</p> <img class="weatherIcon" src="icons/wi-cloudy.svg"/></div>
+          <!-- Saturday -->
+          <div class="days"><p class="dayText">Sat</p> <img class="weatherIcon" src="icons/wi-day-sunny.svg"/></div>
+          <!-- Sunday -->
+				  <div class="days"><p class="dayText">Sun</p> <img class="weatherIcon" src="icons/wi-day-cloudy-windy.svg"/></div>
+          
+          <!-- Monday's Temperature -->
+          <div class="temp" ><p class="tempHigh">24&#8451;</p></div>
+          <!-- Tuesday's Temperature -->
+          <div class="temp"><p class="tempHigh">24&#8451;</p></div>
+          <!-- Wednesday's Temperature -->
+          <div class="temp"><p class="tempHigh">24&#8451;</p></div>
+          <!-- Thursday's Temperature -->
+          <div class="temp"><p class="tempHigh">24&#8451;</p></div>
+          <!-- Friday's Temperature -->
+          <div class="temp"><p class="tempHigh">24&#8451;</p></div>
+          <!-- Saturday's Temperature -->
+          <div class="temp"><p class="tempHigh">24&#8451;</p></div>
+          <!-- Sunday's Temperature -->
+          <div class="temp"><p class="tempHigh">24&#8451;</p></div>
+
+          <div class="risks">
+            <h5>Risks of Zika</h5>
+            <!-- Risk Level -->
+            <h4 class="riskLevel"></h4>
+          </div>
+
+          <div class="packing">
+            <h5>You Need to Pack</h5>
+            <!-- Items to pack -->
+            <ul class="packingItems">
+            </ul>
+          </div>
+				
+			</div>
+		</center>
+  </div>
+  <script type='text/javascript' src='functions.js'></script>
+</body>
+</html>
