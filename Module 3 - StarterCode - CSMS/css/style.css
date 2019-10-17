@@ -1,0 +1,59 @@
+body {
+    background-image: url('background-image.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'century gothic';
+    margin: 0px;
+}
+
+.topHead {
+    overflow: hidden;
+    background-color: rgba(12, 32, 49, 0.671);
+}
+
+h1 {
+  padding: 20px;
+  text-align: center;
+}
+
+.topHead h1 {
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.heading {
+    font-size: 20px;
+    font-weight: bold;
+    border-right: 2px solid rgba(255, 255, 255, 0.125);
+    text-align: center;
+    background-color:rgba(23, 165, 174, 0.1);
+    color: rgb(255, 255, 255);
+    width: 300px;
+}
+
+table {
+    border-collapse: collapse;
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    overflow: scroll;
+}
+    
+th, td {
+    padding: 8px;
+    text-align: left;
+    border: 2px solid rgba(255, 255, 255, 0.125);
+    border-right: 2px solid rgba(255, 255, 255, 0.125);
+    color: #ffffff;
+    text-align: center;
+}
+    
+td:hover {
+    background-color:rgba(96, 88, 235, 0.1);
+    color: white;
+}
