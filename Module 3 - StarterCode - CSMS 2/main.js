@@ -19,15 +19,9 @@ function addActiveStudents(){
   //add it as an element to the active_student array
 
   //Add your code for Activity 1 HERE
-  for(var i = 0; i < student_data.length; i++){
- if(student_data[i].active===true){
-   active_students.push(student_data[i].name);
- }
-   
+
 }
-console.log(active_students);
-}
-addActiveStudents();
+
 //Activity 2 - Now that you've completed the addActiveStudents function,
 //Call it below
 
